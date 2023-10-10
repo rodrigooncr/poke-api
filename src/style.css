@@ -1,0 +1,294 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,800;1,300;1,600;1,800&display=swap');
+
+  :root {
+    
+        --normal:#A8A090;
+        --Water:#3899F8 ;
+        --Grass:#78C850;
+        --Electric:#F8D030;
+        --Ice:	#58C8E0;
+        --Fighting:#7A5848;
+        --Posion:#B058A0;
+        --Groun:#B8A058;
+        --Flyin:#98A8F0;
+        --Psyhi:#F870A0;
+        --Bug:#A8B820;
+        --Rock: 	#B8A058;
+        --Ghost:	#6060B0;
+        --Dark: #424242 ;
+        --Dragon:#7860E0;
+        --Steel:#A8A8C0;
+        --Faily:#E79FE7;
+        --Fire:	#F05030;
+
+  }
+
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+
+   
+}
+
+
+button{
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
+.normal{
+
+    background-color: var(--normal);
+}
+
+.fire{
+    background-color: var(--Fire);
+
+}
+
+
+
+.water{
+    background-color: var(--Water);
+    color: white;
+
+}
+.grass{
+    background-color: var(--Grass);
+
+}
+.electric{
+    background-color: var(--Electric);
+
+}
+.ice{
+    background-color: var(--Ice);
+    color: white;
+
+}
+
+.poison{
+    background-color: var(--Posion);
+  
+
+}
+.ground{
+    background-color: var(--Groun);
+
+}
+.flying{
+    background-color: var(--Flyin);
+
+}
+
+.psychic{
+    background-color: var(--Psyhi);
+
+}
+.bug{
+    background-color: var(--Bug);
+
+}
+.rock{
+    background-color: var(--Rock);
+
+}
+.ghost{
+    background-color: var(--Ghost);
+
+}
+.dark{
+    background-color: var(--Dark);
+    color: white;
+
+}
+.dragon{
+    background-color: var(--Dragon);
+
+}
+.steel{
+    background-color: var(--Steel);
+
+}
+.fairy{
+    background-color: var(--Faily);
+}
+
+.fighting{
+    background-color: var(--Fighting);
+
+}
+
+
+header {
+    /* agrega padding top y bottom  */
+    padding-block: 1rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    background-color: #e6fffa;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+
+}
+
+.btn-header:hover{
+    transform: scale(1.2);
+}
+
+nav img{
+    height: 75px;
+    width: 200px;
+}
+
+
+.btn-header{
+    padding: 0.5rem;
+    border-radius: 100vmax;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+.pokemon-img img{
+
+    width: 100%;
+    max-width: 20rem;
+    gap: 1rem;
+    
+
+}
+
+
+
+
+
+.pokemon{
+    border-radius: 1rem;
+    
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;;
+    text-transform: uppercase;
+    text-align: center;
+    
+    /* el limite del z index es la targeta */
+   
+    overflow: hidden;
+    
+
+
+}
+
+.separator{
+
+    background-color: #e4dede;
+    margin: 1rem;
+    border-radius: 1rem;
+    isolation: isolate;
+    box-sizing: content-box;
+    position:relative;
+
+}
+
+
+.pokemon-id-back{
+
+
+    position:absolute;
+    top: 30%;
+    left: 5%;
+    right: 5%;
+    font-size: 5rem ;
+    font-weight: 700;
+    color: rgb(10, 10, 10);
+    z-index:-1;
+    color: #A8A8C0;
+    
+
+
+}
+
+.pokemon-info{
+
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1rem;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.nombre-contenedor{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.pokemon-id{
+
+    padding:.5rem ;
+    font-weight: 800;
+    background-color: #A8A8C0;
+    border-radius: 1rem;
+   
+}
+
+.tipo-pokemon{
+
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.tipo{
+
+    padding: .25rem;
+    border-radius: 1rem;
+
+}
+
+
+
+.pokemon-stats{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+
+}
+
+
+.stat{
+    border-radius: 1rem;
+    background-color: #bdbdc9;
+    padding: 0.5rem;
+}
